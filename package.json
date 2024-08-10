@@ -1,0 +1,13 @@
+{
+  "name": "clientio",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "start": "start index.html"
+  },
+  "author": "Zbynek Pelunek",
+  "license": "ISC",
+  "dependencies": {
+    "@joint/core": "^4.0.4"
+  }
+}

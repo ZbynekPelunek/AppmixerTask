@@ -1,0 +1,31 @@
+<html>
+
+<body>
+  <div>
+    <h1>Amount of rain drops: <span id="rain-drop-amount"></span></h1>
+  </div>
+  <div style="margin: 10px;">
+    <button type="button" onclick="generateExample1()">Show Example 1</button>
+    <button type="button" onclick="generateExample2()">Show Example 2</button>
+  </div>
+  <div style="margin: 10px;"><button type="button" onclick="generateNewTrap()">Generate New Trap</button></div>
+  <br>
+  <div style="margin: 10px;">
+    <input type="checkbox" id="show-elevation" name="elevation" onchange="toggleElevenationNumbers()">
+    <label for="elevation"> Hide elevation numbers</label>
+  </div>
+  <div style="margin: 10px;">
+    <h3>Elevation Block Size:</h3>
+    <select id="elevation-size" onchange="changeElevationRectangleSize()">
+      <script src="generateDropdownNumbers.js"></script>
+    </select>
+  </div>
+
+  <div id="paper"></div>
+  <h2 id="no-space-rain-drops"></h2>
+
+  <script src="node_modules/@joint/core/dist/joint.js"></script>
+  <script src="rainDrops.js"></script>
+</body>
+
+</html>
