@@ -4,7 +4,7 @@ This is my solution for the Rain Drops task.
 
 ## Table of contents
 
-- [Typescript Game - Shared](#typescript-game---shared)
+- [Appmixer Task](#appmixed-task)
   - [Table of contents](#table-of-contents)
   - [Technologies](#technologies)
   - [Features](#features)
@@ -43,7 +43,7 @@ npm install
 npm run start
 ```
 
-4. You should see openned web browser with the solution
+4. You should see opened web browser with the solution
 
 ## Status
 
